@@ -116,7 +116,7 @@ bot.post('statuses/update', {status: '@somescreenname Yay!', in_reply_to_status_
   }
 });
 
-// to respond to a tweet
+// to delete a tweet 
 
 bot.post('statuses/destroy/:id', {id: 'put some tweet id here'}, function(err, data, response) {
   if (err) {
