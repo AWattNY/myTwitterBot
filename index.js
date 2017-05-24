@@ -30,6 +30,8 @@ bot.get('followers/list', {screen_name: 'InTechMansTerms'}, function(err, data, 
   }
 });
 
+
+
 //To Follow (check rules as there are limitations to bot follow) 
 
 bot.post('friendships/create', {screen_name: 'InTechMansTerms'}, function(err, data, response) {
@@ -39,6 +41,8 @@ bot.post('friendships/create', {screen_name: 'InTechMansTerms'}, function(err, d
     console.log(data);
   }
 });
+
+
 
 // looking up people we follow can you list instead of ids for more details
 
